@@ -29,7 +29,7 @@ async function loadLayout() {
     // Load main script.js after config.js
     configScript.onload = () => {
       const mainScript = document.createElement('script');
-      mainScript.src = 'script.js';
+      mainScript.src = '/game-app/script.js';
       document.body.appendChild(mainScript);
     };
 
