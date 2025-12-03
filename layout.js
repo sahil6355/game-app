@@ -23,7 +23,7 @@ async function loadLayout() {
 
     // Load config.js
     const configScript = document.createElement('script');
-    configScript.src = '../config.js';
+    configScript.src = '/game-app/config.js';
     document.body.appendChild(configScript);
 
     // Load main script.js after config.js
