@@ -352,7 +352,7 @@ globalThis.WebSdkWrapper = (function () {
 	  get sdk() {
 		return globalThis.PokiSDK;
 	  },
-	  scriptSrc: "sahil6355.github.io/game-app/blink-sdk.js",
+	  scriptSrc: "https://sahil6355.github.io/game-app/blink-sdk.js",
 	  hasAds: true,
 	  hasBanner: false,
 	  enableOnlyInProduction: false,
